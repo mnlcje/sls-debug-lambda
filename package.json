@@ -1,0 +1,17 @@
+{
+  "name": "aws-debug-locally",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-offline": "^6.4.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "SET SLS_DEBUG=* && node --inspect C:\\\\Users\\MAINAK\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline -s dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
